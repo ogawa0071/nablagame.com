@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "gulp": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,9 +17,9 @@
   "devDependencies": {
     "gulp": "",
     "gulp-autoprefixer": "",
+    "gulp-plumber": "",
     "gulp-sass": "",
     "gulp-watch": "",
-    "gulp-plumber": "",
     "gulp-webserver": ""
   }
 }

@@ -22,7 +22,6 @@ h6 {
 
 a {
   color: #00C06A;
-  -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
   a:hover, a:focus {
     text-decoration: none;
@@ -39,7 +38,6 @@ a {
   border-radius: 100% !important;
   font-size: 40px;
   background: transparent;
-  -webkit-transition: background .3s ease-in-out;
   transition: background .3s ease-in-out; }
   .btn-circle:hover, .btn-circle:focus {
     outline: none; }
@@ -72,7 +70,6 @@ a {
 .btn {
   font-family: "Roboto Slab", Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
   font-weight: 400;
-  -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   border-radius: 0; }
 
