@@ -1,7 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{HTTP_HOST} ^www\.nablagame\.com
-RewriteRule ^(.*) http://nablagame.com/$1 [R=301,L]
-
-RewriteCond %{THE_REQUEST} ^.*/index.html
-RewriteRule ^(.*)index.html$ http://nablagame.com/$1 [R=301,L]
