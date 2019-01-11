@@ -1,25 +1,29 @@
 {
   "name": "nablagame.com",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "My bedazzling Nuxt.js project",
+  "author": "Futa Ogawa",
+  "private": true,
   "scripts": {
-    "gulp": "gulp",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://bitbucket.org/ogawa0071/nablagame.com.git"
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
   },
-  "author": "",
-  "license": "ISC",
-  "homepage": "https://bitbucket.org/ogawa0071/nablagame.com#readme",
   "devDependencies": {
-    "gulp": "",
-    "gulp-autoprefixer": "",
-    "gulp-plumber": "",
-    "gulp-sass": "",
-    "gulp-watch": "",
-    "gulp-webserver": ""
+    "nodemon": "^1.11.0",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "prettier": "1.14.3"
   }
 }
