@@ -41,20 +41,14 @@ module.exports = {
       }
     ],
     link: [
-      // { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.4/jquery.fullPage.min.css' },
       {
         rel: 'stylesheet',
         href:
-          'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'
+          'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'
       },
       {
         rel: 'stylesheet',
-        href:
-          'https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700'
+        href: 'https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700'
       }
     ]
   },
@@ -72,7 +66,7 @@ module.exports = {
   /*
   ** Plugins to load before mounting the App
   */
-  plugins: [],
+  plugins: [{ src: '~plugins/ga.js', ssr: false }],
 
   /*
   ** Nuxt.js modules

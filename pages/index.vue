@@ -101,24 +101,23 @@
 import $ from 'jquery'
 import fullpage from 'fullpage.js'
 
-$(document).ready(function() {
-  $('#fullpage').fullpage({
-    paddingTop: '0px',
-    paddingBottom: '0px',
-    anchors: ['intro', 'about', 'play', 'buy'],
-    navigation: true
-  })
-})
-
-export default {}
+export default {
+  mounted() {
+    $(document).ready(() => {
+      $('#fullpage').fullpage({
+        paddingTop: '0px',
+        paddingBottom: '0px',
+        anchors: ['intro', 'about', 'play', 'buy'],
+        navigation: true
+      })
+    })
+  }
+}
 </script>
 
 <style lang="scss">
-@import '~/node_modules/fullpage.js/dist/jquery.fullpage.css';
-</style>
-
-<style lang="scss" scoped>
-@import '~/assets/_grayscale.scss';
+@import 'fullpage.js/dist/jquery.fullpage.css';
+@import '~assets/_grayscale.scss';
 
 body {
   color: $black;
