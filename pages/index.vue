@@ -105,10 +105,11 @@ export default {
   mounted() {
     $(document).ready(() => {
       $('#fullpage').fullpage({
-        paddingTop: '0px',
-        paddingBottom: '0px',
+        lockAnchors: true,
         anchors: ['intro', 'about', 'play', 'buy'],
-        navigation: true
+        navigation: true,
+        paddingTop: '0px',
+        paddingBottom: '0px'
       })
     })
   }
