@@ -32,15 +32,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', href: '/favicon.png' },
-      { rel: 'canonical', href: 'https://nablagame.com/' }
-    ],
-    script: [
-      {
-        src: 'https://www.googletagmanager.com/gtag/js?id=UA-44434462-3',
-        async: ''
-      }
-    ],
-    link: [
+      { rel: 'canonical', href: 'https://nablagame.com/' },
       {
         rel: 'stylesheet',
         href:
@@ -92,6 +84,7 @@ module.exports = {
       }
     }
   },
+
   generate: {
     dir: 'docs'
   }
