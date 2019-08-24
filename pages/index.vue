@@ -71,7 +71,9 @@
         <div class="row">
           <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
             <h1>How to Buy</h1>
-            <h2>店舗</h2>
+            <p class="buy-text-section">
+              <strong>店舗</strong>
+            </p>
             <p>
               <strong>東京大学生協購買部</strong>
               <br >- 本郷キャンパス第二購買部
@@ -92,7 +94,9 @@
               </strong>
               <br >
             </p>
-            <h2>オンラインショップ</h2>
+            <p class="buy-text-section">
+              <strong>オンラインショップ</strong>
+            </p>
             <p>
               <strong>
                 <a 
@@ -101,7 +105,7 @@
               </strong>
               <br >
             </p>
-            <p>
+            <p class="buy-text-section">
               現在「ナブラ演算子ゲーム」は、定価1,400円＋税のところ、各大学生協では特別価格1,200円＋税で販売しております。
               <br >在庫状況や今後のイベントなどの最新情報については、随時公式Twitterでも掲載いたします。
               <br >
@@ -118,6 +122,14 @@
                 </a>
               </li>
             </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section intro">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
             <p>
               ナブラ演算子ゲームについてのお問い合わせはこちらまで
               <br >
@@ -200,5 +212,9 @@ body {
 
 .buy {
   background: url('~assets/congruent_pentagon.png') repeat;
+}
+
+.buy-text-section {
+  margin-top: 2em;
 }
 </style>
