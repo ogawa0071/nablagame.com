@@ -16,7 +16,7 @@
   "dependencies": {
     "bootstrap": "^3.4.1",
     "cross-env": "^5.2.0",
-    "fullpage.js": "2",
+    "fullpage.js": "4",
     "jquery": "^3.4.0",
     "nuxt": "^2.0.0"
   },
