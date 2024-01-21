@@ -1,0 +1,10 @@
+/* Variables */
+
+:root {
+  --primary: #00c06a;
+
+  --headline-font-family: "Roboto Slab", Verdana, "游ゴシック", YuGothic,
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  --body-font-family: Verdana, "游ゴシック", YuGothic,
+    "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
